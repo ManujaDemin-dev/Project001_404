@@ -18,7 +18,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <div class="dashboard">
-        <h1>Welcome, <?php echo "yow" . $_SESSION["user"]; ?>!</h1>
+        <h1>Welcome, <?php echo $_SESSION["username"]; ?>!</h1>
         <p>You have successfully logged in.</p>
         <form action="logout.php" method="POST">
             <button type="submit" name="logout">Log Out</button>
