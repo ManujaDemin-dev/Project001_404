@@ -4,6 +4,14 @@
     </head>
     <body>
         <h1>Login</h1>
-        
+        <form action="process.php" method="post">
+            <input type="email" name="email" placeholder="Enter your Email:">
+            <input type="password" name="pw" placeholder="Enter your Password:">
+            <input type="submit" name="login">
+        </form>
+
+        <p>Don't Have An Acc? <a href="signup.html">Signup</a></p>
+
+        <p style="color: red;">If nothing changed after login please check the login credientials again and try later.</p>
     </body>
 </html>
